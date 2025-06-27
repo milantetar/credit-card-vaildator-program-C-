@@ -28,5 +28,12 @@ int sumOddDigits(const std::string cardNumber)
 
 int sumEvenDigits(const std::string catdNumber)
 {
+    int sum = 0;
+
+    for (int i = catdNumber.size() - 2; i >= 0; i -= 2) 
+    {
+        sum += getDigit();
+
+    }
     return 0;
 }
